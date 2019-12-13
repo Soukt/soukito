@@ -1,0 +1,58 @@
+l<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registrasion</title>
+</head>
+<body>
+  <!-- debajo en action se pondria el destino donde mandamos el input, hoy usamos los metodos get y post, dame y toma respectivamente-->
+
+<form action="perrete.html" method="post">
+    <p>
+      <!--poner siempre name-->
+    <input type="text"  name="username" placeholder="Usuario">
+    </p>
+
+    <p>
+    <input type="password" name="userpass" placeholder="Contraseña">
+    </p>
+    <p>
+      Sexo: <br>
+<!-- si el usuario no marca ninguno de los tres porque no tiene ningun value -->
+      Mujer <input type="radio" name="gender" value="F">
+      Hombre <input type="radio" name="gender" value="M">
+      Otros <input type="radio" name="gender" value="O">
+    </p>
+
+    <p>
+      Pais: <br>
+      <select  name="country">
+        <option value="">selecsione su pais haga uste el favor</option>
+        <option value="Españita">Españita</option>
+        <option value="Usa">USA USA</option>
+        <option value="Burkina faso"> Burkina tambien existe</option>
+        <option value="Libano"> Holi</option>
+      </select>
+
+    </p>
+
+    <p>
+      Que pesao eres <br>
+      <textarea name="pesaito" rows="8" cols="80" placeholder="Escribame aqui cacho pesao"></textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Entrar">
+    </p>
+
+    <p>
+
+    <input type="checkbox" name="tos" value="entrar">  Acepto las condiciones
+    </p>
+  </form>
+
+</body>
+</html>
+<!--  -->
